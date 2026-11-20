@@ -1,0 +1,17 @@
+[project]
+name = "venturelens"
+version = "0.1.0"
+description = "An AI-assisted workflow for venture investment research, with one worked example and the checks that keep it honest."
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,25 @@
+# Lessons
+
+> I’m developing VentureLens to deepen my understanding of venture research and test how AI can support the process. These are the main lessons from the public-information exercises so far.
+
+## What I learned about how investors evaluate a company
+
+- **Agree what the market is before sizing it.** Define the customer, product, geography and unit being sold. In the cement example, sites, kiln lines, controllers and customer groups all gave different ways of counting the opportunity. The asset count was easier to support than the price or purchasing unit.
+- **Understand why a market-size range is wide.** An earlier estimate was too broad to be useful. I needed to identify which assumptions caused most of the variation, separate inputs from calculations and compare the result with wider market data. A narrower range is only useful if there is evidence behind it.
+- **Find out whether customers buy and keep using the product.** A named site, testimonial or live installation can justify further investigation. I still need evidence of contracts, payment, renewal and expansion. Reported customer savings also need context: the baseline, percentage improvement, implementation costs and benefit after fees.
+- **Look at what the team has done before.** The initial assessment listed leadership names and roles without enough detail on relevant experience or previous results. For a venture investment, that leaves an important part of the case unanswered. Equally, failing to identify someone in a key role from public information doesn’t establish that the capability is missing.
+- **Be clear about what public information cannot establish.** Missing information should reduce confidence and guide further research. It should not automatically count against the company. I still need to make a reasonable attempt to find the answer and explain how the remaining gap affects the conclusion.
+
+## What I learned about building an AI-assisted workflow
+
+- **Give important assumptions a basis.** Early models used illustrative inputs for retention, conversion and deployment capacity. Benchmarks and workload estimates improved the support for some inputs, but the revised result still needed challenging. Calling an assumption conservative, or attaching a source, doesn’t establish that it fits the company.
+- **Check what a benchmark actually measures.** Revenue retention and site retention measure different things. A proposal, signed contract and accepted deployment are different events. Pricing needs the same care: the vendor’s own listing was more useful than a directory figure because it identified the product and what the package covered.
+- **Check whether the result makes commercial sense.** Calculations and source references can be consistent while the overall conclusion remains poorly supported. The funding discrepancy surfaced when I questioned the result. AI helped investigate it, but passing checks had not been enough to identify the problem.
+- **State what the analysis covers.** The cement estimate did not include every industry Gigaton might eventually serve. Steel and glass remain areas to investigate. Leaving them unsized keeps the analysis honest about its scope; it doesn’t establish that they have no value or that expansion will resolve the investment questions.
+- **Keep the same basic memo sections.** Consistent coverage makes omissions easier to see. If information is missing, I want the section to explain what is unknown, why it matters and what evidence would help. Removing the section would make the document look more complete while saying less.
+- **Do the analysis before writing the investment memo.** Reviewing the first memo exposed gaps in market growth, leadership experience and customer economics. Those questions belonged in the earlier research. The memo should explain the findings to someone reading the case for the first time, with the main conclusions already worked through.
+- **Record where assumptions came from.** Some AI-generated illustrations were later labelled as my assumptions because I had shared them. The records need to distinguish who proposed a figure, what evidence supports it and why it was used. Reviewing or forwarding a number does not give it an empirical basis.
+- **Save sources when using them.** Job adverts, company pages and advertised prices can change or disappear. Dated screenshots and saved text preserve what the analysis relied on. I also need to distinguish when a page was accessed from when its underlying information was produced.
+- **Try the revised process on another case.** Writing new requirements into the workflow is useful, but I still need to see whether they catch problems earlier. The next iterations should test specific changes and record what happened. I’m treating the process as something being developed, with human review still central to deciding what the evidence supports.
+
+These lessons became ten approved changes to the method; see [the ten approved controls](method.md#the-ten-approved-controls).

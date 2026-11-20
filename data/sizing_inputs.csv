@@ -1,0 +1,52 @@
+name,value,unit,evidence_id,basis,note
+operating_sites,2521,sites,E-046,sourced,"Operating clinker-producing cement sites. Summary count calculated from the dataset: Global Energy Monitor, Global Cement and Concrete Tracker, July 2026 (V1) release, CC BY 4.0 (https://globalenergymonitor.org/creative-commons-license)."
+sites_at_least_1mtpa,1359,sites,E-046,sourced,Operating sites with reported clinker capacity of at least 1 Mtpa (million tonnes a year). Calculated from the same dataset.
+sites_unknown_capacity,678,sites,E-046,sourced,Operating sites with no reported capacity. Calculated from the same dataset. Unknown means not published; these sites are kept in the TAM.
+listed_monthly_fee,7000,USD per month,E-047,sourced,"TrustRadius listing for Braincube ""Basic"", re-checked 13 November 2026. A different product; unit and scope not established. Using it as the fee for this market is an assumption."
+subscriptions_per_site,1,subscriptions per site,E-052,assumption,One site-wide subscription per site. The real contract unit is not public.
+unknown_capacity_share_qualifying,0.5,share,E-052,assumption,"Neutral 50% prior for sites of unknown size clearing the 1 Mtpa filter. Not measured."
+readiness_share,0.7,share,E-052,assumption,"Illustrative 70% technical, data and integration readiness among size-qualified sites. No census."
+first_reachable_pool,60,sites,E-081,assumption,"First model: pool of reachable sites over three years. Analyst capacity test, not identified prospects."
+first_qualified_year1,12,sites,E-081,assumption,First model: sites qualified in year 1. Analyst workload case.
+first_qualified_year2,24,sites,E-081,assumption,First model: sites qualified in year 2.
+first_qualified_year3,36,sites,E-081,assumption,First model: sites qualified in year 3. Limited by the remaining pool.
+first_win_rate,0.4,share,E-081,assumption,"First model: share of qualified sites that go live, rounded down to whole sites."
+first_slots_year1,8,sites,E-081,assumption,First model: delivery slots in year 1.
+first_slots_year2,12,sites,E-081,assumption,First model: delivery slots in year 2.
+first_slots_year3,16,sites,E-081,assumption,First model: delivery slots in year 3.
+first_retention,0.95,share,E-081,assumption,First model: share of the new cohort kept each year. Analyst guess; replaced in the corrected model.
+corrected_proposals_per_year,8,proposals,E-085,assumption,"Corrected model: proposals a year, reasoned from assumed sales workload. Not an observed pipeline."
+corrected_engagement_pool,24,sites,E-085,assumption,Corrected model: sites that can reach proposal over three years (3 × 8). Does not bind.
+corrected_win_rate,0.4,share,E-083,benchmark-informed assumption,"Corrected model: proposal-to-contract rate. Norwest reports 31–50% for half of respondents; 40% chosen near the band centre. Not cement data."
+corrected_live_share,0.8,share,E-085,assumption,Corrected model: share of signed contracts live within the year. Reasoned allowance; not observed.
+corrected_capacity,4,sites per year,E-085,assumption,Corrected model: new deployments a year. Does not bind.
+corrected_retention,0.9,share,E-082,benchmark-informed assumption,"Corrected model: gross revenue retention. Benchmarkit median for USD 50k–100k contracts; software benchmark, not cement."
+physical_kilns,3697,kilns,E-104,sourced,"Physical kilns at the 2,521 operating sites. Calculated from the same dataset. Includes inactive units; not active or billable units."
+package_price_current,67530.48,USD per package a year,E-108,sourced,"Braincube Real Time Process Optimization, Microsoft Marketplace list price on 16 November 2026, one-year subscription. A different product; list price, not a contract price."
+package_price_from_2027_03_01,155000,USD per package a year,E-108,sourced,"Price notice on the same listing: USD 155,000.00 a year from 1 March 2027 (UTC). An announced price, not one observed in use."
+package_max_sites,2,sites per package,E-108,sourced,"""The standard package covers up to 10 optimization units across up to 2 sites."""
+package_max_units,10,optimisation units per package,E-108,sourced,"Same wording. ""Optimisation unit"" is not defined, so units needed per plant are unknown."
+package_use_current_2_sites,2,sites using one package,E-108,benchmark-informed assumption,Fee per site = current price ÷ 2. Assumes a customer actually shares one package across two qualifying sites.
+package_use_current_1_site,1,sites using one package,E-108,benchmark-informed assumption,Fee per site = current price. A customer with one site pays for the whole package.
+package_use_2027_2_sites,2,sites using one package,E-108,benchmark-informed assumption,Fee per site = price from 1 March 2027 ÷ 2. Assumes a customer actually shares one package across two qualifying sites.
+package_use_2027_1_site,1,sites using one package,E-108,benchmark-informed assumption,Fee per site = price from 1 March 2027. A customer with one site pays for the whole package.
+funding_round,26000000,USD,E-002,sourced,"Series A announced 3 June 2026. Treated as the whole round's investment for this test only; the actual structure, terms and stakes are unknown."
+stake_series_a_median,0.18,share,E-110,benchmark-informed assumption,"Carta: median dilution in US software Series A rounds, six months to 10 July 2026. Used as the stake the whole round bought. Not Gigaton's terms."
+stake_series_a_p25,0.11,share,E-110,benchmark-informed assumption,Carta: Series A dilution at the 25th percentile. Used in the unfavourable constructed case.
+stake_series_a_p75,0.21,share,E-110,benchmark-informed assumption,Carta: Series A dilution at the 75th percentile. Used in the favourable constructed case.
+dilution_series_b_median,0.12,share,E-110,benchmark-informed assumption,Carta: median Series B dilution. An assumed later round; not a known plan.
+dilution_series_b_p25,0.086,share,E-110,benchmark-informed assumption,Carta: Series B dilution at the 25th percentile.
+dilution_series_b_p75,0.164,share,E-110,benchmark-informed assumption,Carta: Series B dilution at the 75th percentile.
+dilution_series_c_median,0.098,share,E-110,benchmark-informed assumption,Carta: median Series C dilution. An assumed later round; not a known plan.
+dilution_series_c_p25,0.056,share,E-110,benchmark-informed assumption,Carta: Series C dilution at the 25th percentile.
+dilution_series_c_p75,0.15,share,E-110,benchmark-informed assumption,Carta: Series C dilution at the 75th percentile.
+dilution_series_d_median,0.081,share,E-110,benchmark-informed assumption,Carta: median Series D dilution. An assumed later round; not a known plan.
+dilution_series_d_p25,0.039,share,E-110,benchmark-informed assumption,Carta: Series D dilution at the 25th percentile.
+dilution_series_d_p75,0.118,share,E-110,benchmark-informed assumption,Carta: Series D dilution at the 75th percentile.
+sale_multiple_low,4,times annual revenue,E-111,benchmark-informed assumption,"SEG 2Q26: median sale value of acquired SaaS companies, 4.0 times revenue over the past twelve months. Software sales, not Gigaton."
+sale_multiple_high,10,times annual revenue,E-111,assumption,Analyst upper sensitivity. Not a SEG range endpoint.
+sale_multiple_premium,15,times annual revenue,E-113,benchmark-informed assumption,"Rounded from 14.90 times FY2024 revenue in the AspenTech buyout. A separate premium case, outside the 4–10 times range. One deal, not a typical multiple."
+return_multiple_low,3,times the money invested,E-112,assumption,"Illustrative return. Industry Ventures discusses 3x on later-stage winners; context, not any investor's target."
+return_multiple_high,10,times the money invested,E-112,assumption,"Illustrative return. Industry Ventures discusses 10x-plus on early-stage winners; context, not any investor's target."
+market_share_low,0.2,share,E-114,assumption,Share of the serviceable market won. No benchmark found; a sensitivity only.
+market_share_high,0.3,share,E-114,assumption,Share of the serviceable market won. No benchmark found; a sensitivity only.
